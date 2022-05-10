@@ -1,0 +1,6 @@
+# 03/27/22 21:21:09
+parm ../common_files/complexwfe.prmtop
+trajin ../bstates/loop_by_iscu.rst
+distance sulf-to-plp @3177 @5082 out sulf-to-plp.dat
+go
+exit

@@ -1,0 +1,4 @@
+# 03/31/22 17:38:06
+parm ../common_files/complexwfe.prmtop
+trajin loop_by_iscu.rst
+exit

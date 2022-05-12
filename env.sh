@@ -6,7 +6,7 @@ module load amber/20-cluster
 
 module unload python
 
-#module load intel-mpi
+# load ld library path
 export LD_LIBRARY_PATH=/net/pulsar/home/koes/dkoes/build/amber20/lib:$LD_LIBRARY_PATH
 
 # This is our local scratch, where we'll store files during the dynamics.
@@ -30,6 +30,6 @@ fi
 export SIM_NAME=$(basename $WEST_SIM_ROOT)
 echo "simulation $SIM_NAME root is $WEST_SIM_ROOT"
 
-# Export environment variables for the ZMQ work manager.
+# Export environment variables for pmemd and cpptraj (too lazy to type the path each time)
 export PMEMD=$AMBERHOME/bin/pmemd.cuda
 export CPPTRAJ=$AMBERHOME/bin/cpptraj

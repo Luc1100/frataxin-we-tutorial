@@ -45,4 +45,4 @@ plothist average pdist.h5
 | `env.sh` | Load environment variables specific to our cluster |
 | `init.sh` | Initialize the WESTPA simulation (delete old files, create new subdirectories) |
 | `runwe.slurm` | Run the WESTPA simulation | 
-| `west.cfg` | Specify the main WE parameters |
+| `west.cfg` | Specify the main WE parameters (there are bits in this file that even I don't know what they do, and should probably not be touched)|
